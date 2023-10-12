@@ -11,10 +11,10 @@ import {
 } from '@/components/ui/table';
 import Image from 'next/image';
 
-export default function TableCoin({ data }) {
+export default function CoinsTable({ data }) {
 	return (
 		<Table>
-			<TableCaption>A list of your coins.</TableCaption>
+			<TableCaption>A list of your coins. Test</TableCaption>
 			<TableHeader>
 				<TableRow>
 					<TableHead className='w-[100px]'>#</TableHead>
